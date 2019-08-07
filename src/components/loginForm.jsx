@@ -3,7 +3,8 @@ import Input from './common/input';
 
 export class LoginForm extends Component {
   state = {
-    account: { username: '', password: '' }
+    account: { username: '', password: '' },
+    errors: {}
   };
 
   handleChange = ({ currentTarget: input }) => {
@@ -12,8 +13,24 @@ export class LoginForm extends Component {
     this.setState({ account });
   };
 
+  validate = () => {
+    const errors = {};
+    const { account } = this.state;
+
+    if (account.username.trim() === '')
+      errors.username = 'Username is required';
+    if (account.password.trim() === '')
+      errors.password = 'Password is required';
+
+    return Object.keys(errors).length === 0 ? null : errors;
+  };
+
   handleSubmit = e => {
     e.preventDefault();
+
+    const errors = this.validate();
+    this.setState({ errors: errors || {} });
+    if (errors) return;
 
     console.log(
       'submitted',
@@ -22,7 +39,7 @@ export class LoginForm extends Component {
   };
 
   render() {
-    const { username, password } = this.state.account;
+    const { account, errors } = this.state;
 
     return (
       <div>
@@ -30,15 +47,17 @@ export class LoginForm extends Component {
         <form onSubmit={this.handleSubmit}>
           <Input
             name="username"
-            value={username}
+            value={account.username}
             label="username"
             onChange={this.handleChange}
+            error={errors.username}
           />
           <Input
             name="password"
-            value={password}
+            value={account.password}
             label="password"
             onChange={this.handleChange}
+            error={errors.password}
           />
 
           <button className="btn btn-primary">Login</button>
