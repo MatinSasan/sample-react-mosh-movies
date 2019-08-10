@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MatinSasan/sample-react-mosh-movies/static/css/main.d7c3e0e7.chunk.css",
-    "main.js": "/MatinSasan/sample-react-mosh-movies/static/js/main.40e79d13.chunk.js",
-    "main.js.map": "/MatinSasan/sample-react-mosh-movies/static/js/main.40e79d13.chunk.js.map",
-    "runtime~main.js": "/MatinSasan/sample-react-mosh-movies/static/js/runtime~main.11170fb3.js",
-    "runtime~main.js.map": "/MatinSasan/sample-react-mosh-movies/static/js/runtime~main.11170fb3.js.map",
-    "static/css/2.a0a65020.chunk.css": "/MatinSasan/sample-react-mosh-movies/static/css/2.a0a65020.chunk.css",
-    "static/js/2.5fc85933.chunk.js": "/MatinSasan/sample-react-mosh-movies/static/js/2.5fc85933.chunk.js",
-    "static/js/2.5fc85933.chunk.js.map": "/MatinSasan/sample-react-mosh-movies/static/js/2.5fc85933.chunk.js.map",
-    "index.html": "/MatinSasan/sample-react-mosh-movies/index.html",
-    "precache-manifest.82f286774cc935eb659ea121a0703120.js": "/MatinSasan/sample-react-mosh-movies/precache-manifest.82f286774cc935eb659ea121a0703120.js",
-    "service-worker.js": "/MatinSasan/sample-react-mosh-movies/service-worker.js",
-    "static/css/2.a0a65020.chunk.css.map": "/MatinSasan/sample-react-mosh-movies/static/css/2.a0a65020.chunk.css.map",
-    "static/css/main.d7c3e0e7.chunk.css.map": "/MatinSasan/sample-react-mosh-movies/static/css/main.d7c3e0e7.chunk.css.map",
-    "static/media/font-awesome.css": "/MatinSasan/sample-react-mosh-movies/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/sample-react-mosh-movies/static/css/main.d7c3e0e7.chunk.css",
+    "main.js": "/sample-react-mosh-movies/static/js/main.152bdd64.chunk.js",
+    "main.js.map": "/sample-react-mosh-movies/static/js/main.152bdd64.chunk.js.map",
+    "runtime~main.js": "/sample-react-mosh-movies/static/js/runtime~main.cc3bd12f.js",
+    "runtime~main.js.map": "/sample-react-mosh-movies/static/js/runtime~main.cc3bd12f.js.map",
+    "static/css/2.e8cbe09e.chunk.css": "/sample-react-mosh-movies/static/css/2.e8cbe09e.chunk.css",
+    "static/js/2.5fc85933.chunk.js": "/sample-react-mosh-movies/static/js/2.5fc85933.chunk.js",
+    "static/js/2.5fc85933.chunk.js.map": "/sample-react-mosh-movies/static/js/2.5fc85933.chunk.js.map",
+    "index.html": "/sample-react-mosh-movies/index.html",
+    "precache-manifest.b419213594a3e0d87ba1c79f58a1bc61.js": "/sample-react-mosh-movies/precache-manifest.b419213594a3e0d87ba1c79f58a1bc61.js",
+    "service-worker.js": "/sample-react-mosh-movies/service-worker.js",
+    "static/css/2.e8cbe09e.chunk.css.map": "/sample-react-mosh-movies/static/css/2.e8cbe09e.chunk.css.map",
+    "static/css/main.d7c3e0e7.chunk.css.map": "/sample-react-mosh-movies/static/css/main.d7c3e0e7.chunk.css.map",
+    "static/media/font-awesome.css": "/sample-react-mosh-movies/static/media/fontawesome-webfont.fee66e71.woff"
   }
 }
