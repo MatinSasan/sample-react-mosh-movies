@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://matinsasan.github.io/sample-react-mosh-movies/",
   "dependencies": {
+    "axios": "^0.19.0",
     "bootstrap": "4.1.1",
     "font-awesome": "4.7.0",
     "gh-pages": "^2.1.1",
@@ -13,7 +14,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "4.3.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-toastify": "^5.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
