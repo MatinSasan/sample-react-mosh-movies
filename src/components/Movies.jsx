@@ -100,6 +100,7 @@ export class Movies extends Component {
   render() {
     const { length: count } = this.state.movies;
     const { pageSize, currentPage, sortColumn, searchQuery } = this.state;
+    const { user } = this.props;
 
     if (count === 0) return <h5>No movies in database</h5>;
 
@@ -114,12 +115,14 @@ export class Movies extends Component {
           onItemSelect={this.handleGenreSelect}
         />
         <div className="col">
-          <Link
-            to="/movies/new"
-            className="btn btn-primary"
-            style={{ marginBottom: 20 }}>
-            New Movie
-          </Link>
+          {user && (
+            <Link
+              to="/movies/new"
+              className="btn btn-primary"
+              style={{ marginBottom: 20 }}>
+              New Movie
+            </Link>
+          )}
 
           <h5>Showing {totalCount} movies in the database</h5>
           <SearchBox value={searchQuery} onChange={this.handleSearch} />
